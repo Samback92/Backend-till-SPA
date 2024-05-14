@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://king-prawn-app-44rdd.ondigitalocean.app/")
 public class ReservationController {
     
     private ReservationService reservationService;
